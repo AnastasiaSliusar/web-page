@@ -1,29 +1,41 @@
 .list_arbitration {
-  width: 1310px;
-  height: 791px;
-  padding: 0px 0px 32px 0px;
-  gap: 32px;
-  margin-left: auto;
-  margin-right: auto;
+	width: 1310px;
+	height: 791px;
+	padding: 0px 0px 32px 0px;
+	gap: 32px;
+	margin-left: auto;
+	margin-right: auto;
 
-  .textBlock {
-    text-align: center;
-  }
+	.textBlock {
+		text-align: center;
+		color: #818487;
+		margin-top: 64px;
+	}
 
-  ul.list {
-    height: 64px;
-    widows: 100%;
-    padding: 0;
-    list-style-type: none;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
+	ul.list {
+		height: 64px;
+		widows: 100%;
+		padding: 0;
+		list-style-type: none;
+		margin: 0;
+		display: flex;
+		flex-wrap: wrap;
+		text-align: center;
 
-    li {
-      flex-basis: 16.6%;
-      padding-top: 64px;
-      height: 82px;
-    }
-  }
+		li {
+			flex-basis: 16.6%;
+			padding-top: 64px;
+			height: 82px;
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.list_arbitration {
+		ul.list {
+			li {
+				flex-basis: 33.33%;
+			}
+		}
+	}
 }

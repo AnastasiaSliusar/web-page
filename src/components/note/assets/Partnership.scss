@@ -1,0 +1,43 @@
+@use '../../../base' as base;
+
+.partnership_block {
+    width: 1310px;
+    margin-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
+
+    p {
+        text-align: center;
+        color:  base.$textColor;
+        width: 862px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+
+        &.header {
+            text-align: center;
+            width: 1310px;
+            display: inline-block;
+
+            img {
+                vertical-align: middle;
+            }
+
+            .hr {
+                height: inherit;
+                display: inline-block;
+                position: absolute;
+
+
+                &.left {
+                    left: 0;
+                    position: absolute;
+                }
+
+                &.right {
+                    right: 0;
+                }
+            }
+        }
+    }
+}

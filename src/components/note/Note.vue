@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import './assets/Note.scss';
 </script>
 
 <template>
@@ -23,95 +24,6 @@
             <div class="testimonials lato_12_medium">
                 <a href="">READ THE WHOLE DOCUMENT</a>
             </div>
-
-
         </div>
-
     </section>
 </template>
-
-<style scoped>
-.note_block {
-    width: 904px;
-    height: 336px;
-    padding: 32px;
-    border-radius: 8px;
-    padding: 16px;
-    margin-left: auto;
-    margin-right: auto;
-
-    border: 2px dotted red;
-
-}
-.note_block .content {
-    width: 840px;
-    height: 272px;
-    padding: 32px 0px 32px 0px;
-    border-radius: 16px;
-    padding: 16px;
-}
-
-.note_block .quote_section {
-    width: 100%;
-    height: 96px;
-    padding: 32px;
-    margin-bottom: 32px;
-}
-
-.quote {
-    width: 66px;
-    height: 96px;
-    display: inline-block;
-}
-
-.quote.left {
-    margin-right: 32px;
-    display: inline-block;
-    height: 100%;
-    position: relative;
-    
-}
-
-.quote.left img {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-}
-
-.quote.right img {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-}
-
-.quote.right {
-    margin-left: 32px;
-    display: inline-block;
-    height: 100%;
-    position: relative;
-}
-
-
-.note_block .quote_section .text {
-    display: inline-block;
-    width: 600px;
-    height: 96px;
-    text-align: justify;
-    font-style: italic;
-}
-
-.author {
-    text-align: center;
-    color: #2C2B2E;
-    width: 640px;
-    height: 48px;
-    margin-top: 32px;
-    margin-bottom: 32px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.testimonials {
-    text-align: center;
-}
-</style>

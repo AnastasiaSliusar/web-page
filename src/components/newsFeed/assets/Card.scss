@@ -5,14 +5,12 @@
   height: 144px;
   padding: 8px;
   border-radius: 8px;
-  border: 2px dotted red;
-
 
   .wrapper {
     width: 288px;
     height: 112px;
     background: #ffffff;
-    border: 2px dotted red;
+    padding: 8px;
   }
 
   .card_text {
@@ -20,6 +18,7 @@
     color: #3d8cbc;
     width: 288px;
     height: 48px;
+    padding: 8px;
   }
 
   .card_link {

@@ -1,13 +1,10 @@
 .list_why {
-    margin-left: auto;
-    margin-right: auto;
-
     ul.list {
+        margin: 0 auto;
         height: 100%;
         width: 1310px;
         padding: 0;
         list-style-type: none;
-        margin: 0;
         display: flex;
         flex-wrap: wrap;
         text-align: center;
@@ -18,6 +15,15 @@
             border-radius: 8px;
             margin-bottom: 17px;
             height: inherit;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .list_why {
+        ul.list {
+            max-width: 100%;
+            display: block;
         }
     }
 }

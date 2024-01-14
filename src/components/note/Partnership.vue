@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import './assets/Partnership.scss';
 </script>
 
 <template>
@@ -26,50 +27,3 @@
         </p>
     </section>
 </template>
-
-<style scoped>
-.partnership_block {
-    width: 1310px;
-    border: 2px dotted red;
-    margin-bottom: 32px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.partnership_block p {
-    text-align: center;
-    color: #2C2B2E;
-    width: 862px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.partnership_block p.header {
-    text-align: center;
-    width: 1310px;
-    display: inline-block;
-}
-
-.partnership_block p.header .hr{
-   height: inherit;
-   display: inline-block;
-   position: absolute;
-}
-
-.hr.left{
-  left:0;
-}
-
-.hr.right{
-  right:0;
-}
-
-p.header hr.left{
-  position: absolute;
-  left:0;
-}
-.partnership_block p.header img{
-    vertical-align: middle;
-}
-</style>

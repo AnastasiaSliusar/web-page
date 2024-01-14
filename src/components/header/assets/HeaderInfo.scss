@@ -1,0 +1,144 @@
+@use '../../../base' as base;
+
+.info {
+    width: 582px;
+    height: 565px;
+    right: 122px;
+    top: 175px;
+    gap: 32px;
+    position: absolute;
+
+    .info_header {
+        width: inherit;
+        height: 256px;
+        text-align: left;
+        color: base.$textColor;
+        animation-name: info_header_anim;
+        animation-duration: 2s;
+        position: inherit;
+    }
+
+    .info_text {
+        width: inherit;
+        height: 96px;
+        top: 288px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: base.$textColor;
+        position: inherit;
+
+        animation-name: info_text_anim;
+        animation-duration: 0.3s;
+
+    }
+
+    .info_button {
+        width: 263px;
+        height: 64px;
+        top: 477px;
+        padding: 20px 32px 20px 32px;
+        border-radius: 4px;
+        gap: 8px;
+        background: #009EFE;
+        box-shadow: 0px 8px 32px 0px #254F6D3D;
+        position: absolute;
+        left: 0;
+        animation-name: info_button_anim;
+        animation-duration: 6s;
+        border: none;
+
+        .text {
+            text-align: left;
+            display: inline;
+            color: #FFFFFF;
+            width: 173px;
+            height: 17px;
+        }
+
+        .icon img {
+            vertical-align: middle;
+        }
+    }
+}
+
+@keyframes info_header_anim {
+    from {
+        top: 100px;
+        opacity: 0;
+
+    }
+
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes info_text_anim {
+    from {
+        display: none;
+    }
+
+    to {
+        display: block;
+    }
+}
+
+@keyframes info_button_anim {
+    from {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 0.5;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes header_anim {
+    from {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 0.5;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .info {
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        .info_header{
+            text-align: justify;
+        }
+        .info_text{
+            text-align: justify;
+        }
+        .info_button {
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+    }
+}
