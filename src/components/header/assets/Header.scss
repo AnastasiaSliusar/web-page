@@ -1,0 +1,290 @@
+.header_section {
+    width: 1440px;
+    height: 804px;
+
+    border: 2px dotted red;
+    position: relative;
+}
+
+.header_section .header_partner {
+    width: 1311px;
+    height: 80px;
+    top: 32px;
+    position: absolute;
+    left: 64px;
+    right: 64px;
+}
+
+.header_section .header_partner span.top {
+    top: 40px;
+    position: absolute;
+    left: 0;
+}
+
+span.left {
+    top: 60px;
+    left: 66px;
+    position: absolute;
+}
+
+.partner {
+    width: 483px;
+    height: 483px;
+    top: 42px;
+    left: 94px;
+    position: absolute;
+    border: 2px dotted green;
+    background: #FFFFFF;
+}
+
+.partner .logo {
+    width: 323.94px;
+    height: 165.19px;
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+    border: 2px dotted violet;
+    display: block;
+    margin-top: 200px;
+}
+
+.js .logo {
+    width: 107.65px;
+    height: 38.75px;
+    top: 165px;
+    left: 115.24px;
+    padding: 0px 0px 0.37px 0px;
+    border: 2px dotted orange;
+    display: block;
+    position: absolute;
+}
+
+.js .logo .ellipse {
+    width: 187.13px;
+    height: 187.13px;
+    top: -74px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.675) 0%, rgba(255, 255, 255, 0.375) 100%);
+    box-shadow: 0px 0px 192px 0px #00000026;
+    border-radius: 50%;
+
+    display: block;
+    position: absolute;
+    z-index: -9;
+
+    background: white;
+    z-index: 1;
+    opacity: 0.3;
+}
+
+.js .logo img {
+    margin-left: 39.56px;
+    margin-right: 39.56px;
+}
+
+
+.gif {
+    width: 478.98px;
+    height: 496.31px;
+    top: 255.49px;
+    left: 150px;
+    border: 2px dotted blue;
+    position: absolute;
+    z-index: -1;
+    animation-name: gif_text_anim;
+    animation-duration: 1s;
+}
+
+.gif img {
+    width: 29.936rem;
+    height: 31.019rem;
+}
+
+.partner .circle {
+ 
+    box-shadow: 0px 0px 128px 0px #0000001A;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    animation-name: circle_anim;
+    animation-duration: 4s;
+}
+
+
+.js {
+    width: 424.82px;
+    height: 354.8px;
+    top: 390px;
+    left: 20px;
+    position: absolute;
+    border: 2px dotted orange;
+}
+
+span.right {
+    top: 60px;
+    left: 1377.48px;
+    position: absolute;
+}
+
+.info {
+    width: 582px;
+    height: 565px;
+    right: 122px;
+    top: 175px;
+    gap: 32px;
+    border: 2px dotted yellow;
+    position: absolute;
+}
+
+.header_footer {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    top: 684px;
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0) 0%,
+            #f5f5f5 69.79%);
+}
+
+.try_button {
+    width: 193px;
+    height: 49px;
+    padding: 16px;
+    border-radius: 4px;
+    gap: 16px;
+    box-shadow: 0px 8px 32px 0px #254f6d3d;
+    right: 0;
+    position: absolute;
+}
+
+.try_button .arrow {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.try_button span {
+    display: inline-block;
+    
+    text-align: left;
+
+}
+
+.info .info_header {
+    width: 581px;
+    height: 256px;
+    text-align: left;
+    color: #2C2B2E;
+    animation-name: info_header_anim;
+    animation-duration: 4s;
+    position: inherit;
+}
+
+.info .info_text {
+    width: 581.66px;
+    height: 96px;
+    top: 288px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #2C2B2E;
+    position: inherit;
+
+    animation-name: info_text_anim;
+    animation-duration: 0.3s;
+
+}
+
+.info .info_button {
+    width: 263px;
+    height: 64px;
+    top: 477px;
+    padding: 20px 32px 20px 32px;
+    border-radius: 4px;
+    gap: 8px;
+    background: #009EFE;
+    box-shadow: 0px 8px 32px 0px #254F6D3D;
+    position: absolute;
+    left: 0;
+
+}
+
+.info .info_button .text {
+   
+    text-align: left;
+    display: inline;
+    color: #FFFFFF;
+    width: 173px;
+    height: 17px;
+
+
+}
+
+.info .info_button .icon img {
+    vertical-align: middle;
+}
+
+
+
+
+@keyframes info_text_anim {
+    from {
+        display: none;
+    }
+
+    to {
+        display: block;
+    }
+}
+
+@keyframes test_text_anim {
+    from {
+        display: none;
+    }
+
+    to {
+        display: block;
+    }
+}
+
+
+@keyframes gif_text_anim {
+    from {
+        display: none;
+    }
+
+    to {
+        display: none;
+    }
+}
+
+@keyframes info_header_anim {
+    from {
+        top: 100px;
+        opacity: 0;
+
+    }
+
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+
+@keyframes circle_anim {
+    from {
+        top: 80px;
+        width: 322px;
+        height: 322px;
+        left: 80px;
+        opacity: 0;
+    }
+
+    to {
+        top: 0px;
+        width: 483px;
+        height: 483px;
+        left: 0px;
+        opacity: 1;
+    }
+}

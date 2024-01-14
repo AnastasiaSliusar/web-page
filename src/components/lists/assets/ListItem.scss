@@ -1,0 +1,21 @@
+@use '../../../base' as base;
+
+.list_item {
+    .text {
+        width: 415px;
+    }
+
+    .text-title {
+        text-align: center;
+        color: base.$textColor;
+        height: 32px;
+    }
+
+    .text-body {
+        text-align: center;
+        height: 72px;
+        color:base.$textColor;
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+}

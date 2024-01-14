@@ -1,0 +1,23 @@
+@use '../../../base' as base;
+
+.news_feed_header {
+    width: 100%;
+
+    border: 2px dotted red;
+    position: relative;
+    margin-top: 32px;
+
+    .header {
+        text-align: center;
+        width: 100%;
+        height: 17px;
+        margin: auto 0;
+        color: base.$textColor;
+        margin-bottom: 16px;
+    }
+
+    .title {
+        text-align: center;
+        color: base.$textColor;
+    }
+}

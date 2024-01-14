@@ -1,0 +1,23 @@
+.list_why {
+    margin-left: auto;
+    margin-right: auto;
+
+    ul.list {
+        height: 100%;
+        width: 1310px;
+        padding: 0;
+        list-style-type: none;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+
+        li {
+            flex-basis: 33.33%;
+            padding: 32px 0px 32px 0px;
+            border-radius: 8px;
+            margin-bottom: 17px;
+            height: inherit;
+        }
+    }
+}

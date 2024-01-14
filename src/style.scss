@@ -1,0 +1,56 @@
+@use 'base';
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#app {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  max-width: 1440px;
+}
+
+.ibm-plex-sans_18_bold {
+  @include base.getFont($fontFamily: 'IBM Plex Sans', $fontSize: 18px, $fontWeight: 700, $lineHeight: 32px, $letterSpacing: 0px);
+}
+
+.ibm-plex-sans_16_medium {
+  @include base.getFont($fontFamily: 'IBM Plex Sans', $fontSize: 16px, $fontWeight: 400, $lineHeight: 24px, $letterSpacing: 0px);
+}
+
+.ibm-plex-sans_16_bold {
+  @include base.getFont($fontFamily: 'IBM Plex Sans', $fontSize: 16px, $fontWeight: 700, $lineHeight: 24px, $letterSpacing: 0px);
+}
+
+.ibm-plex-sans_18_medium {
+  @include base.getFont($fontFamily: 'IBM Plex Sans', $fontSize: 18px, $fontWeight: 400, $lineHeight: 32px, $letterSpacing: 0px);
+}
+
+.lato_14_bold {
+  @include base.getFont($fontFamily: 'Lato', $fontSize: 14px, $fontWeight: 700, $lineHeight: 17px, $letterSpacing: 2px);
+}
+
+.lato_14_medium {
+  @include base.getFont($fontFamily: 'Lato', $fontSize: 14px, $fontWeight: 500, $lineHeight: 17px, $letterSpacing: 2px);
+}
+
+.lato_12_medium {
+  @include base.getFont($fontFamily: 'Lato', $fontSize: 12px, $fontWeight: 500, $lineHeight: 16px, $letterSpacing: 2px);
+}
+
+.larken_56_bold {
+  @include base.getFont($fontFamily: 'Larken', $fontSize: 56px, $fontWeight: 800, $lineHeight: 64px, $letterSpacing: -1px);
+}
+
+.larken_32_medium {
+  @include base.getFont($fontFamily: 'Larken', $fontSize: 32px, $fontWeight: 400, $lineHeight: 40px, $letterSpacing: -0.5px);
+}
+
+.larken_16_medium {
+  @include base.getFont($fontFamily: 'Larken', $fontSize: 16px, $fontWeight: 400, $lineHeight: 32px, $letterSpacing: 0px);
+}

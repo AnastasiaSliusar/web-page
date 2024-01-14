@@ -1,0 +1,36 @@
+@use '../../../base' as base;
+
+.card {
+  width: 336px;
+  height: 144px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 2px dotted red;
+
+
+  .wrapper {
+    width: 288px;
+    height: 112px;
+    background: #ffffff;
+    border: 2px dotted red;
+  }
+
+  .card_text {
+    text-align: left;
+    color: #3d8cbc;
+    width: 288px;
+    height: 48px;
+  }
+
+  .card_link {
+    text-align: left;
+    margin-top: 6px;
+
+    a {
+      text-align: left;
+      color: base.$textColor;
+      text-decoration-color: base.$textColor;
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.news_feed_section {
+    width: 1440px;
+    height: 486px;
+    border: 2px dotted red;
+    background: #F4F6F8;
+
+    .read_all_news {
+        height: 49px;
+        padding: 16px 0px 16px 0px;
+        border-radius: 4px;
+        padding: 8px;
+
+        a {
+            text-align: left;
+            color: #2C2B2E;
+            text-decoration-color: #2c2b2e;
+            text-decoration: underline;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .news_feed_section {
+        max-width: 100%;
+    }
+}
